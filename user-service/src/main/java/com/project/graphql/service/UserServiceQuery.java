@@ -9,6 +9,6 @@ public interface UserServiceQuery {
 
     List<User> allUsers() throws Exception;
 
-    Optional<User> userById(Integer userId);
+    User userById(Integer userId) throws Exception;
 
 }
